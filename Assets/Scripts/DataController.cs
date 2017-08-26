@@ -14,6 +14,8 @@ public class DataController : MonoBehaviour {
             return _container;
         }
     }
+
+        
     static DataController _instance;
     public static DataController Instance
     {
@@ -36,7 +38,9 @@ public class DataController : MonoBehaviour {
 
     public int GoldPerSec = 1; //how much Gold increase per second
 
+    public int CollectGoldLevel = 1;
 
+    
 
     void Start () {
 
